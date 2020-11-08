@@ -7,8 +7,8 @@ WEIGHTS_FILE = "eyeModelV1.h5"
 
 
 face     = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
-#leftEye  = cv2.CascadeClassifier('haarcascade_lefteye_2splits.xml')
-leftEye  = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')
+leftEye  = cv2.CascadeClassifier('haarcascade_lefteye_2splits.xml')
+#leftEye  = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')
 rightEye = cv2.CascadeClassifier('haarcascade_righteye_2splits.xml')
 video = 'driver.mp4'
 #video = 'ben.mp4'
