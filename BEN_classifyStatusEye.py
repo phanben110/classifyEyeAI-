@@ -50,9 +50,9 @@ class runModel:
         #images = np.vstack([x])
         #prediction = model.predict_classes ( images , batch_size = 10 )
         #IMG = cv2.imread ( img , 0 )
-        IMG = cv2.resize ( img , (50, 50))
+        IMG = cv2.resize ( img , (80, 80))
         
-        IMG = np.reshape(IMG , [1,50,50, 1])
+        IMG = np.reshape(IMG , [1,80,80, 1])
         prediction = model.predict(IMG)
       
         value = np.argmax( prediction )
